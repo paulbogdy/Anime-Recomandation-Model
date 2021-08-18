@@ -9,7 +9,7 @@ Website (recommender), Picture scraper from myanimelist (scraper)
 
 The goal of the Project is to find 15 similar anime for any given anime (only works on TV anime)
 
-##Solution:
+## Solution:
 
 The proposed solution is using collaborative filtering, as there are 70m ratings from 200k+ users for 5k anime.
 I've used matrix factorization: The idea is simple, we want to reduce the initial sparse matrix of 70m ratings (A), into
